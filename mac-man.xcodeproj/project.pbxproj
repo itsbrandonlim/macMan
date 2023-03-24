@@ -13,6 +13,7 @@
 		B7C7CA1329C9997800003254 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7C7CA1229C9997800003254 /* Preview Assets.xcassets */; };
 		B7C7CA1C29C999B000003254 /* PureSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = B7C7CA1B29C999B000003254 /* PureSwiftUI */; };
 		B7C7CA2229CABE9600003254 /* macManAnimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C7CA2129CABE9600003254 /* macManAnimate.swift */; };
+		B7C7CA4729CD616D00003254 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C7CA4629CD616D00003254 /* SwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		B7C7CA1229C9997800003254 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B7C7CA1429C9997800003254 /* mac_man.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = mac_man.entitlements; sourceTree = "<group>"; };
 		B7C7CA2129CABE9600003254 /* macManAnimate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macManAnimate.swift; sourceTree = "<group>"; };
+		B7C7CA4629CD616D00003254 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				B7C7CA0F29C9997800003254 /* Assets.xcassets */,
 				B7C7CA1429C9997800003254 /* mac_man.entitlements */,
 				B7C7CA1129C9997800003254 /* Preview Content */,
+				B7C7CA4629CD616D00003254 /* SwiftUIView.swift */,
 			);
 			path = "mac-man";
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 			files = (
 				B7C7CA0E29C9997700003254 /* ContentView.swift in Sources */,
 				B7C7CA2229CABE9600003254 /* macManAnimate.swift in Sources */,
+				B7C7CA4729CD616D00003254 /* SwiftUIView.swift in Sources */,
 				B7C7CA0C29C9997700003254 /* mac_manApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
