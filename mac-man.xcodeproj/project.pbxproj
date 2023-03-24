@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A7060C4F29CD6416001CF18A /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7060C4E29CD6416001CF18A /* File.swift */; };
 		B7C7CA0C29C9997700003254 /* mac_manApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C7CA0B29C9997700003254 /* mac_manApp.swift */; };
 		B7C7CA0E29C9997700003254 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C7CA0D29C9997700003254 /* ContentView.swift */; };
 		B7C7CA1029C9997800003254 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7C7CA0F29C9997800003254 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A7060C4E29CD6416001CF18A /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		B7C7CA0829C9997700003254 /* mac-man.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mac-man.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7C7CA0B29C9997700003254 /* mac_manApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mac_manApp.swift; sourceTree = "<group>"; };
 		B7C7CA0D29C9997700003254 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				B7C7CA0B29C9997700003254 /* mac_manApp.swift */,
 				B7C7CA0D29C9997700003254 /* ContentView.swift */,
 				B7C7CA2129CABE9600003254 /* macManAnimate.swift */,
+				A7060C4E29CD6416001CF18A /* File.swift */,
 				B7C7CA0F29C9997800003254 /* Assets.xcassets */,
 				B7C7CA1429C9997800003254 /* mac_man.entitlements */,
 				B7C7CA1129C9997800003254 /* Preview Content */,
@@ -154,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7C7CA0E29C9997700003254 /* ContentView.swift in Sources */,
+				A7060C4F29CD6416001CF18A /* File.swift in Sources */,
 				B7C7CA2229CABE9600003254 /* macManAnimate.swift in Sources */,
 				B7C7CA4729CD616D00003254 /* SwiftUIView.swift in Sources */,
 				B7C7CA0C29C9997700003254 /* mac_manApp.swift in Sources */,
