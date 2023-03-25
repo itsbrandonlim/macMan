@@ -24,7 +24,13 @@ struct Loading_Screen: View {
                     .font(.custom("Retro Gaming", size: 90))
                     .padding()
                 Spacer()
-                    .frame(height: 250)
+                    .frame(height: 100)
+                
+                AnimationView()
+                    .frame(width: 1200, height: 80)
+                
+                Spacer()
+                    .frame(height: 100)
                 HStack{
                     Text("Username: ")
                         .font(.custom("Retro Gaming", size: 12))
@@ -35,6 +41,7 @@ struct Loading_Screen: View {
                         .foregroundColor(.white)
                         .textFieldStyle(.roundedBorder)
                 }
+                
                 Button{
 //                    macMan = MacManSession(username: username)
                     self.currentDisplayScreen = .maze
