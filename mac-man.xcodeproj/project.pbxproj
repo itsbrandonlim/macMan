@@ -13,6 +13,7 @@
 		B7C7CA1329C9997800003254 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7C7CA1229C9997800003254 /* Preview Assets.xcassets */; };
 		B7C7CA1C29C999B000003254 /* PureSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = B7C7CA1B29C999B000003254 /* PureSwiftUI */; };
 		B7C7CA2229CABE9600003254 /* macManAnimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C7CA2129CABE9600003254 /* macManAnimate.swift */; };
+		E18F46AD29CF3E3300A51133 /* Maze.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18F46AC29CF3E3300A51133 /* Maze.swift */; };
 		E1E0C0CE29CD651400DC9307 /* Loading Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E0C0CD29CD651400DC9307 /* Loading Screen.swift */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +25,7 @@
 		B7C7CA1229C9997800003254 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B7C7CA1429C9997800003254 /* mac_man.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = mac_man.entitlements; sourceTree = "<group>"; };
 		B7C7CA2129CABE9600003254 /* macManAnimate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macManAnimate.swift; sourceTree = "<group>"; };
+		E18F46AC29CF3E3300A51133 /* Maze.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Maze.swift; sourceTree = "<group>"; };
 		E1E0C0CD29CD651400DC9307 /* Loading Screen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Loading Screen.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,6 +60,7 @@
 		B7C7CA0A29C9997700003254 /* mac-man */ = {
 			isa = PBXGroup;
 			children = (
+				E18F46AC29CF3E3300A51133 /* Maze.swift */,
 				E1E0C0CD29CD651400DC9307 /* Loading Screen.swift */,
 				B7C7CA0B29C9997700003254 /* mac_manApp.swift */,
 				B7C7CA0D29C9997700003254 /* ContentView.swift */,
@@ -157,6 +160,7 @@
 				E1E0C0CE29CD651400DC9307 /* Loading Screen.swift in Sources */,
 				B7C7CA2229CABE9600003254 /* macManAnimate.swift in Sources */,
 				B7C7CA0C29C9997700003254 /* mac_manApp.swift in Sources */,
+				E18F46AD29CF3E3300A51133 /* Maze.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -13,7 +13,7 @@ struct Loading_Screen: View {
     @Binding var currentDisplayScreen: DisplayScreen
     
     @State var isShowingPopUp = false
-    @State var macMan: MacManSession?
+//    @State var macMan: MacManSession?
     @State var username = ""
     
     var body: some View {
@@ -36,8 +36,8 @@ struct Loading_Screen: View {
                         .textFieldStyle(.roundedBorder)
                 }
                 Button{
-                    macMan = MacManSession(username: username)
-//                    self.currentDisplayScreen = .maze
+//                    macMan = MacManSession(username: username)
+                    self.currentDisplayScreen = .maze
                     isShowingPopUp = true
                 }label: {
                     Text("ENTER")
@@ -49,9 +49,9 @@ struct Loading_Screen: View {
                 }
                 .padding()
                 .buttonStyle(.plain)
-                .sheet(isPresented: $isShowingPopUp){
-                    Pairing(currentDisplayScreen: $currentDisplayScreen).environmentObject(macMan!)
-                }
+//                .sheet(isPresented: $isShowingPopUp){
+//                    Pairing(currentDisplayScreen: $currentDisplayScreen).environmentObject(macMan!)
+//                }
                 
                 Spacer()
                     .frame(height: 50)

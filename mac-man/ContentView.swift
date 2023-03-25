@@ -50,45 +50,66 @@ struct AnimationView: NSViewRepresentable {
     }
 }
 
+enum DisplayScreen{
+    case loadingScreen
+//    case pairing
+    case maze
+//    case truthOrDare
+}
 
 struct ContentView: View {
     
+    @State var currentDisplayScreen: DisplayScreen = .loadingScreen
+//    @State var macMan: MacManSession?
+    
     var body: some View {
-        VStack {
-
-            Text("Mac-Man")
-                .font(.custom("Retro Gaming", size: 70))
-                .foregroundColor(Color.white)
-           
-            AnimationView()
-//                .aspectRatio(contentMode: .fit)
-                .frame(width: 600, height: 80)
-//    NSViewRepresentableWrapper(viewController.view)
-//                            .frame(width: 100, height: 100)
-            
-            Button {
-                print("")
-
-            } label: {
-                Text("Enter")
-                    .font(.custom("Retro Gaming", size: 15))
-                    .frame(width: 100, height:30)
-                    .foregroundColor(.black)
-            }
-//            .background{
-//                Color.white
-//            }
-            .background(.white)
-            .cornerRadius(12)
-
-
-
-
-
-
+    
+        switch currentDisplayScreen {
+        case .loadingScreen:
+            Loading_Screen(currentDisplayScreen: $currentDisplayScreen)
+//        case .pairing:
+//            Pairing(currentDisplayScreen: $currentDisplayScreen)
+//                .environmentObject(macMan!)
+        case .maze:
+            Maze(currentDisplayScreen: $currentDisplayScreen)
+//        case .truthOrDare:
+//            Truth_Or_Dare()
         }
-
-        .padding()
+//        VStack {
+//
+//            Text("Mac-Man")
+//                .font(.custom("Retro Gaming", size: 70))
+//                .foregroundColor(Color.white)
+//
+//            AnimationView()
+////                .aspectRatio(contentMode: .fit)
+//                .frame(width: 600, height: 80)
+////    NSViewRepresentableWrapper(viewController.view)
+////                            .frame(width: 100, height: 100)
+//
+//            Button {
+//                print("")
+//
+//            } label: {
+//                Text("Enter")
+//                    .font(.custom("Retro Gaming", size: 15))
+//                    .frame(width: 100, height:30)
+//                    .foregroundColor(.black)
+//            }
+////            .background{
+////                Color.white
+////            }
+//            .background(.white)
+//            .cornerRadius(12)
+//
+//
+//
+//
+//
+//
+//        }
+//
+//        .padding()
 
 
     }
